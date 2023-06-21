@@ -11,3 +11,6 @@ C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.exe
 C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.pdb
 C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.Form2.resources
 C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.Form3.resources
+C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.Form4.resources
+C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.Form5.resources
+C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.Form6.resources

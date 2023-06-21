@@ -25,9 +25,8 @@ namespace Экз_ТП_WF
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 f2 = new Form2();
-            Form3 f3 = new Form3();
             f2.Show();
-            f3.Show();
+            this.Hide();
         }
     }
 }
