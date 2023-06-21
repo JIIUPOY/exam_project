@@ -1,0 +1,13 @@
+C:\Users\Vladislav\source\Экз_ТП_WF\bin\Debug\Экз_ТП_WF.exe.config
+C:\Users\Vladislav\source\Экз_ТП_WF\bin\Debug\Экз_ТП_WF.exe
+C:\Users\Vladislav\source\Экз_ТП_WF\bin\Debug\Экз_ТП_WF.pdb
+C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.csproj.AssemblyReference.cache
+C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.csproj.SuggestedBindingRedirects.cache
+C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.Form1.resources
+C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.Properties.Resources.resources
+C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.csproj.GenerateResource.cache
+C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.csproj.CoreCompileInputs.cache
+C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.exe
+C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.pdb
+C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.Form2.resources
+C:\Users\Vladislav\source\Экз_ТП_WF\obj\Debug\Экз_ТП_WF.Form3.resources
