@@ -30,3 +30,4 @@ C:\Users\asus\Source\Exam\exam_project\obj\Debug\Экз_ТП_WF.csproj.GenerateR
 C:\Users\asus\Source\Exam\exam_project\obj\Debug\Экз_ТП_WF.csproj.CoreCompileInputs.cache
 C:\Users\asus\Source\Exam\exam_project\obj\Debug\Экз_ТП_WF.exe
 C:\Users\asus\Source\Exam\exam_project\obj\Debug\Экз_ТП_WF.pdb
+C:\Users\asus\source\exam\exam_project\obj\Debug\Экз_ТП_WF.Form7.resources
