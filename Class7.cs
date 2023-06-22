@@ -12,12 +12,11 @@ namespace Экз_ТП_WF
     {
         private int currentSubjectId;
         private static int maxSubjectsCount = 20;
-        private List<Subject> subjects;
+        public List<Subject> subjects;
         private static SubjectsMemento instance;
 
-        private SubjectsMemento()
+        public SubjectsMemento()
         {
-            currentSubjectId = 0;
             subjects = new List<Subject>();
         }
 
@@ -25,21 +24,21 @@ namespace Экз_ТП_WF
         {
             string[] names = {
                 "Методы программирования",
-                "Современное обществознание",
-                "Историческое многообразие",
+                "Историческое многообразие современного общества",
                 "Аналитическая геометрия",
                 "Дифференциальное исчисление",
-                "Теория функций комплексного переменного",
+                "Языки программирования",
                 "Физика",
-                "Интегральное исчисление",
                 "Зарубежная и отечественная философия",
                 "Кратные ряды и интегралы",
+                "Интегральное исчисление",
                 "Дифференциальные уравнения",
+                "Теория функций комплексного переменного",
                 "Теория вероятностей и математическая статистика",
                 "Основы нефтегазового дела",
                 "Концепции современного естествознания",
                 "Специальная подготовка"
-             };
+            };
 
             foreach (string name in names)
             {
@@ -49,7 +48,8 @@ namespace Экз_ТП_WF
 
         public List<Subject> Subjects 
         {
-            get { return subjects; } 
+            get { return subjects; }
+            set { subjects = value; }
         }
 
         public void addSubject(string name)

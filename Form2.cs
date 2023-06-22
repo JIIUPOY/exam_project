@@ -15,6 +15,7 @@ namespace Экз_ТП_WF
         public Form2()
         {
             InitializeComponent();
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -37,15 +38,45 @@ namespace Экз_ТП_WF
         private void button3_Click(object sender, EventArgs e)
         {
             Form3 f3 = new Form3();
-            this.Hide();
+            //this.Hide();
             f3.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form3 f3 = new Form3();
-            this.Hide();
-            f3.Show();
+            Form8 f8 = new Form8();
+            f8.Show();
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            Form8 f8 = new Form8();
+            f8.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Clear();
+            
+
+            foreach (Student st in Group.GetInstance().NameStudents)
+            {
+                //dataGridView1.Rows.Add(st.Name);
+                int? sum_1 = 0;
+                foreach (Subject sub in st.subjects.Subjects)
+                {
+                    sum_1 += sub.Mark;
+                }
+                double? average = sum_1 / 15.0;
+                dataGridView1.Rows.Add("", st.Name, average);
+            }
+            dataGridView1.Sort(dataGridView1.Columns[0], ListSortDirection.Ascending);
+            
+
+
+
+
+
         }
     }
 }
