@@ -70,68 +70,78 @@ namespace Экз_ТП_WF
                 st.subjects.Subjects.Add(subject);
             }
             
+            if (comboBox1.Text == "" || comboBox2.Text == "" || comboBox3.Text == "" || comboBox4.Text == "" || comboBox5.Text == "" 
+                || comboBox6.Text == "" || comboBox7.Text == "" || comboBox8.Text == "" || comboBox9.Text == "" || comboBox10.Text == ""
+                || comboBox11.Text == "" || comboBox12.Text == "" || comboBox13.Text == "" || comboBox14.Text == "" || comboBox15.Text == "")
+            {
+                MessageBox.Show("Заполните все оценки!");
+            }
+            else
+            {
+                Subject subj = st.subjects.Subjects[0];
+                subj.Mark = Convert.ToInt32(comboBox1.Text);
+                st.subjects.Subjects[0] = subj;
+
+                Subject subj1 = st.subjects.Subjects[1];
+                subj1.Mark = Convert.ToInt32(comboBox2.Text);
+                st.subjects.Subjects[1] = subj1;
+
+                Subject subj2 = st.subjects.Subjects[2];
+                subj2.Mark = Convert.ToInt32(comboBox3.Text);
+                st.subjects.Subjects[2] = subj2;
+
+                Subject subj3 = st.subjects.Subjects[3];
+                subj3.Mark = Convert.ToInt32(comboBox4.Text);
+                st.subjects.Subjects[3] = subj3;
+
+                Subject subj4 = st.subjects.Subjects[4];
+                subj4.Mark = Convert.ToInt32(comboBox5.Text);
+                st.subjects.Subjects[4] = subj4;
 
 
-            Subject subj = st.subjects.Subjects[0];
-            subj.Mark = Convert.ToInt32(comboBox1.Text);
-            st.subjects.Subjects[0] = subj;
+                Subject subj5 = st.subjects.Subjects[5];
+                subj5.Mark = Convert.ToInt32(comboBox6.Text);
+                st.subjects.Subjects[5] = subj5;
 
-            Subject subj1 = st.subjects.Subjects[1];
-            subj1.Mark = Convert.ToInt32(comboBox2.Text);
-            st.subjects.Subjects[1] = subj1;
+                Subject subj6 = st.subjects.Subjects[6];
+                subj6.Mark = Convert.ToInt32(comboBox7.Text);
+                st.subjects.Subjects[6] = subj6;
 
-            Subject subj2 = st.subjects.Subjects[2];
-            subj2.Mark = Convert.ToInt32(comboBox3.Text);
-            st.subjects.Subjects[2] = subj2;
+                Subject subj7 = st.subjects.Subjects[7];
+                subj7.Mark = Convert.ToInt32(comboBox8.Text);
+                st.subjects.Subjects[7] = subj7;
 
-            Subject subj3 = st.subjects.Subjects[3];
-            subj3.Mark = Convert.ToInt32(comboBox4.Text);
-            st.subjects.Subjects[3] = subj3;
+                Subject subj8 = st.subjects.Subjects[8];
+                subj8.Mark = Convert.ToInt32(comboBox9.Text);
+                st.subjects.Subjects[8] = subj8;
 
-            Subject subj4 = st.subjects.Subjects[4];
-            subj4.Mark = Convert.ToInt32(comboBox5.Text);
-            st.subjects.Subjects[4] = subj4;
+                Subject subj9 = st.subjects.Subjects[9];
+                subj9.Mark = Convert.ToInt32(comboBox10.Text);
+                st.subjects.Subjects[9] = subj9;
+
+                Subject subj10 = st.subjects.Subjects[10];
+                subj10.Mark = Convert.ToInt32(comboBox11.Text);
+                st.subjects.Subjects[10] = subj10;
+
+                Subject subj11 = st.subjects.Subjects[11];
+                subj11.Mark = Convert.ToInt32(comboBox12.Text);
+                st.subjects.Subjects[11] = subj11;
+
+                Subject subj12 = st.subjects.Subjects[12];
+                subj12.Mark = Convert.ToInt32(comboBox13.Text);
+                st.subjects.Subjects[12] = subj12;
+
+                Subject subj13 = st.subjects.Subjects[13];
+                subj13.Mark = Convert.ToInt32(comboBox14.Text);
+                st.subjects.Subjects[13] = subj13;
+
+                Subject subj14 = st.subjects.Subjects[14];
+                subj14.Mark = Convert.ToInt32(comboBox15.Text);
+                st.subjects.Subjects[14] = subj14;
+            }
 
 
-            Subject subj5 = st.subjects.Subjects[5];
-            subj5.Mark = Convert.ToInt32(comboBox6.Text);
-            st.subjects.Subjects[5] = subj5;
-
-            Subject subj6 = st.subjects.Subjects[6];
-            subj6.Mark = Convert.ToInt32(comboBox7.Text);
-            st.subjects.Subjects[6] = subj6;
-
-            Subject subj7 = st.subjects.Subjects[7];
-            subj7.Mark = Convert.ToInt32(comboBox8.Text);
-            st.subjects.Subjects[7] = subj7;
-
-            Subject subj8 = st.subjects.Subjects[8];
-            subj8.Mark = Convert.ToInt32(comboBox9.Text);
-            st.subjects.Subjects[8] = subj8;
-
-            Subject subj9 = st.subjects.Subjects[9];
-            subj9.Mark = Convert.ToInt32(comboBox10.Text);
-            st.subjects.Subjects[9] = subj9;
-
-            Subject subj10 = st.subjects.Subjects[10];
-            subj10.Mark = Convert.ToInt32(comboBox11.Text);
-            st.subjects.Subjects[10] = subj10;
-
-            Subject subj11 = st.subjects.Subjects[11];
-            subj11.Mark = Convert.ToInt32(comboBox12.Text);
-            st.subjects.Subjects[11] = subj11;
-
-            Subject subj12 = st.subjects.Subjects[12];
-            subj12.Mark = Convert.ToInt32(comboBox13.Text);
-            st.subjects.Subjects[12] = subj12;
-
-            Subject subj13 = st.subjects.Subjects[13];
-            subj13.Mark = Convert.ToInt32(comboBox14.Text);
-            st.subjects.Subjects[13] = subj13;
-
-            Subject subj14 = st.subjects.Subjects[14];
-            subj14.Mark = Convert.ToInt32(comboBox15.Text);
-            st.subjects.Subjects[14] = subj14;
+            
 
             int? sum = 0;
             foreach (Subject sub in st.subjects.Subjects)

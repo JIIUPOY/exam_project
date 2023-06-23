@@ -81,9 +81,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(23, 138);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(378, 38);
+            this.label2.Size = new System.Drawing.Size(449, 38);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Введите ФИО студента";
+            this.label2.Text = "Введите фамилию студента";
             // 
             // textBox1
             // 
@@ -472,7 +472,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(172, 46);
             this.button2.TabIndex = 36;
-            this.button2.Text = "button2";
+            this.button2.Text = "Назад";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 

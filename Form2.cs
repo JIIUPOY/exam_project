@@ -59,7 +59,10 @@ namespace Экз_ТП_WF
         {
             dataGridView1.Rows.Clear();
             
-
+            //if ()
+            //{
+            //
+            //}
             foreach (Student st in Group.GetInstance().NameStudents)
             {
                 //dataGridView1.Rows.Add(st.Name);
