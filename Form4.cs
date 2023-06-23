@@ -53,11 +53,7 @@ namespace Экз_ТП_WF
             
 
             label1.Text = "Процент отличников: " + ((count_otl) * 100 / (count_all)).ToString() + "%";
-            //label2.Text = perc.ToString();
-            //label3.Text = percent.ToString();
-            label4.Text = count_otl.ToString();
-            label5.Text = count_all.ToString();
-            //label6.Text = (perc*100).ToString();
+            
         }
     }
 }

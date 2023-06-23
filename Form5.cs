@@ -50,7 +50,6 @@ namespace Экз_ТП_WF
                     list_hor.Add(st.Name);
                     count_hor++;
                 }
-                label4.Text = count_4.ToString();
             }
 
             foreach (String NameOfSt in list_hor)
@@ -59,9 +58,7 @@ namespace Экз_ТП_WF
             }
 
             label1.Text = "Процент хорошистов: " + (((count_hor) * 100 / (count_all))).ToString() + "%";
-            label2.Text = count_hor.ToString();
-            label3.Text = count_all.ToString();
-            //label4.Text = count_4.ToString();
+            
 
         }
     }
