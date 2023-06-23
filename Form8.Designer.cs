@@ -479,6 +479,7 @@
             this.button2.TabIndex = 71;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form8
             // 
@@ -521,7 +522,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Form8";
             this.Text = "Form8";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -15,6 +15,8 @@ namespace Экз_ТП_WF
 {
     public partial class Form3 : Form
     {
+        private Form2 Form2;
+
         public Form3()
         {
             InitializeComponent();
@@ -25,10 +27,18 @@ namespace Экз_ТП_WF
             List<Student> students = new List<Student>();
         }
 
+        public void provideParentFormInstanse(Form2 form2)
+        {
+            this.Form2 = form2;
+        }
+
+
         private void label16_Click(object sender, EventArgs e)
         {
 
         }
+
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -209,6 +219,12 @@ namespace Экз_ТП_WF
         private void Form3_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            this.Form2.Show();  
         }
     }
 }

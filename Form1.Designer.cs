@@ -40,9 +40,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(404, 404);
+            this.label3.Location = new System.Drawing.Point(583, 350);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1056, 65);
+            this.label3.Size = new System.Drawing.Size(865, 54);
             this.label3.TabIndex = 5;
             this.label3.Text = "Выполнили студенты группы КА-21-07";
             // 
@@ -50,9 +50,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(426, 191);
+            this.label2.Location = new System.Drawing.Point(603, 180);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(990, 65);
+            this.label2.Size = new System.Drawing.Size(808, 54);
             this.label2.TabIndex = 4;
             this.label2.Text = "по Технологиям программирования";
             // 
@@ -60,9 +60,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(543, 96);
+            this.label1.Location = new System.Drawing.Point(707, 104);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(737, 65);
+            this.label1.Size = new System.Drawing.Size(602, 54);
             this.label1.TabIndex = 3;
             this.label1.Text = "Экзаменационная работа ";
             // 
@@ -70,9 +70,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(343, 536);
+            this.label4.Location = new System.Drawing.Point(529, 456);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(441, 65);
+            this.label4.Size = new System.Drawing.Size(362, 54);
             this.label4.TabIndex = 6;
             this.label4.Text = "Батышкин В. А.";
             // 
@@ -80,9 +80,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(911, 536);
+            this.label5.Location = new System.Drawing.Point(1034, 456);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(565, 65);
+            this.label5.Size = new System.Drawing.Size(462, 54);
             this.label5.TabIndex = 7;
             this.label5.Text = "Крыжановский В. В.";
             // 
@@ -90,10 +90,9 @@
             // 
             this.button1.AutoSize = true;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(603, 791);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(760, 660);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(487, 169);
+            this.button1.Size = new System.Drawing.Size(433, 135);
             this.button1.TabIndex = 8;
             this.button1.Text = "Перейти к заданию";
             this.button1.UseVisualStyleBackColor = true;
@@ -101,16 +100,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1924, 1014);
+            this.ClientSize = new System.Drawing.Size(1789, 811);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Экзамен по ТП";

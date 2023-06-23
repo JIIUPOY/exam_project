@@ -38,7 +38,8 @@ namespace Экз_ТП_WF
         private void button3_Click(object sender, EventArgs e)
         {
             Form3 f3 = new Form3();
-            //this.Hide();
+            f3.provideParentFormInstanse(this);
+            this.Hide();
             f3.Show();
         }
 
@@ -68,9 +69,9 @@ namespace Экз_ТП_WF
                     sum_1 += sub.Mark;
                 }
                 double? average = sum_1 / 15.0;
-                dataGridView1.Rows.Add("", st.Name, average);
+                dataGridView1.Rows.Add("", st.Name, Math.Round((double)average, 2));
             }
-            dataGridView1.Sort(dataGridView1.Columns[0], ListSortDirection.Ascending);
+            dataGridView1.Sort(dataGridView1.Columns[2], ListSortDirection.Ascending);
             
 
 
